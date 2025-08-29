@@ -1,0 +1,89 @@
+{
+  "arrow": {
+    "name": "Arrow Tower",
+    "icon": "🏹",
+    "baseCost": 50,
+    "tiers": {
+      "1": {
+        "cost": 0,
+        "damage": 20,
+        "range": 3,
+        "attackSpeed": 2.0,
+        "projectileSpeed": 15
+      },
+      "2": {
+        "cost": 75,
+        "damage": 40,
+        "range": 3.5,
+        "attackSpeed": 2.5,
+        "projectileSpeed": 18
+      },
+      "3": {
+        "cost": 150,
+        "damage": 80,
+        "range": 4,
+        "attackSpeed": 3.0,
+        "projectileSpeed": 22
+      }
+    }
+  },
+  "cannon": {
+    "name": "Cannon Tower",
+    "icon": "💣",
+    "baseCost": 100,
+    "tiers": {
+      "1": {
+        "cost": 0,
+        "damage": 50,
+        "range": 2.5,
+        "attackSpeed": 0.8,
+        "projectileSpeed": 12,
+        "splashRadius": 1.5
+      },
+      "2": {
+        "cost": 150,
+        "damage": 100,
+        "range": 3,
+        "attackSpeed": 1.0,
+        "projectileSpeed": 12,
+        "splashRadius": 2
+      },
+      "3": {
+        "cost": 300,
+        "damage": 200,
+        "range": 3.5,
+        "attackSpeed": 1.2,
+        "projectileSpeed": 15,
+        "splashRadius": 2.5
+      }
+    }
+  },
+  "frost": {
+    "name": "Frost Tower",
+    "icon": "❄️",
+    "baseCost": 75,
+    "tiers": {
+      "1": {
+        "cost": 0,
+        "damage": 10,
+        "range": 3,
+        "attackSpeed": 1.5,
+        "effects": ["SLOW"]
+      },
+      "2": {
+        "cost": 100,
+        "damage": 20,
+        "range": 3.5,
+        "attackSpeed": 2.0,
+        "effects": ["SLOW"]
+      },
+      "3": {
+        "cost": 200,
+        "damage": 40,
+        "range": 4,
+        "attackSpeed": 2.5,
+        "effects": ["SLOW"]
+      }
+    }
+  }
+}

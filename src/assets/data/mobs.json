@@ -1,0 +1,38 @@
+{
+  "normal": {
+    "name": "Normal",
+    "baseHp": 100,
+    "baseSpeed": 5.0,
+    "baseArmor": 0,
+    "baseBounty": 10,
+    "hpScaling": 1.2,
+    "bountyScaling": 1.1
+  },
+  "fast": {
+    "name": "Fast",
+    "baseHp": 60,
+    "baseSpeed": 9.0,
+    "baseArmor": 0,
+    "baseBounty": 15,
+    "hpScaling": 1.15,
+    "bountyScaling": 1.1
+  },
+  "tank": {
+    "name": "Tank",
+    "baseHp": 300,
+    "baseSpeed": 3.0,
+    "baseArmor": 5,
+    "baseBounty": 30,
+    "hpScaling": 1.25,
+    "bountyScaling": 1.15
+  },
+  "flying": {
+    "name": "Flying",
+    "baseHp": 120,
+    "baseSpeed": 6.5,
+    "baseArmor": 2,
+    "baseBounty": 25,
+    "hpScaling": 1.2,
+    "bountyScaling": 1.12
+  }
+}
